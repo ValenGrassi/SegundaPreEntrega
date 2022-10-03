@@ -97,8 +97,9 @@ verSuplementos.addEventListener("click",()=>{
 
 const borrarSuplementos = document.getElementById("borrarSuplementos");
 borrarSuplementos.addEventListener("click", () => {
-    nuevoInventario.splice(0,nuevoInventario.length)
-    localStorage.clear()
+    nuevoInventario.splice(0,nuevoInventario.length);
+    localStorage.clear();
+    location.href = location.href
 })
 
 
